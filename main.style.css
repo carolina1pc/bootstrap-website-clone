@@ -1,0 +1,43 @@
+:root {
+    --color-gray-bg: rgba(15, 19, 24, 0.921);
+    --color-title: rgba(255, 255, 255, 0.952);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: var(--color-gray-bg);
+    color: var(--color-white);
+  }
+
+  main {
+    font-family: Corbel;
+  }
+
+  .section-1 {
+    display: flex;
+    padding: 0;
+    margin-right: 20%;
+    margin-left: 20%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-1 {
+    font-size: 60px;
+    color: var(--color-title);
+  }
+
+  
+
+
+  @media screen and (max-width: 768px) {
+    .title-1-mobile {
+        font-size: 40px;
+        color: var(--color-title);
+    }
+  }
+  /* sa fac media query si pt footer si sa folosesc blackbox */
